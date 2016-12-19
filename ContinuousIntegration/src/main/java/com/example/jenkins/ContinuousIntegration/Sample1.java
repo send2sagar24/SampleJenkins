@@ -30,6 +30,6 @@ public class Sample1 {
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		}
-		System.out.println();
+		System.out.println("Done...");
 	}
 }
