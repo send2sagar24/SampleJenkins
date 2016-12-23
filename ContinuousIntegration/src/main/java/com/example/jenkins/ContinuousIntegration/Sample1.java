@@ -3,6 +3,7 @@ package com.example.jenkins.ContinuousIntegration;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +20,7 @@ public class Sample1 {
 	}
 
 	public static void main(String[] args) {
-		// SpringApplication.run(Sample1.class, args);
+		SpringApplication.run(Sample1.class, args);
 		// ConfigurableApplicationContext ctx = new
 		// SpringApplicationBuilder().bannerMode(Banner.Mode.OFF)
 		// .sources(Sample1.class).run(args);
