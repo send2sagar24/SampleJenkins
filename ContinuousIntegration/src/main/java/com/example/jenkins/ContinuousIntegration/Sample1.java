@@ -24,7 +24,7 @@ public class Sample1 {
 		// ConfigurableApplicationContext ctx = new
 		// SpringApplicationBuilder().bannerMode(Banner.Mode.OFF)
 		// .sources(Sample1.class).run(args);
-		//System.out.println(ctx.getEnvironment().getProperty("local.server.port"));
+		System.out.println(ctx.getEnvironment().getProperty("local.server.port"));
 		try {
 			System.out.println("The IP of the Sagar machine is :" + InetAddress.getLocalHost().getHostAddress());
 		} catch (UnknownHostException e) {
